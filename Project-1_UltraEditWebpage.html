@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra Edit</title>
+    <link rel="stylesheet" href="styleUltraEdit.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="all">
+                <div class="titled">
+                    <h4>UltraEdit</h4>
+                    <div class="titled-below">
+                        <p>An Idera, Inc. Company</p>
+                    </div>
+                </div>
+                <div class="logo">
+                    <img src="data:image/png;base64,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"
+                        alt="" width="27px">
+                </div>
+                <div class="products" onclick="window.location.href='https://www.ultraedit.com/products/ue-all-access/'">
+                    <h6>products</h6>
+                </div>
+                <div class="Pricing" onclick="window.location.href=' https://www.ultraedit.com/catalog/#ultraedit'"">
+                    <h6>Pricing</h6>
+                </div>
+                <div class="Resources" onclick="window.location.href='https://www.youtube.com/@ultraedit/playlists'">
+                    <h6>Resources</h6>
+                </div>                
+                <div class="About" onclick="window.location.href='https://www.ultraedit.com/company/about-us/'">
+                    <h6>About us</h6>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section>
+        <div class="photo">
+            <img src="https://th.bing.com/th/id/OIP.ZxDLHpYlQ4a9iNuBByFtqAHaEK?rs=1&pid=ImgDetMain" alt="" height="300px" width="400px">
+        </div>
+        <div class="info">
+            <p>Empower Your Creativity: Unleash the Potential with Our Editing App - Tools and Services that Transform Your Vision into Masterpieces!</p>
+        </div>
+        <div class="downld">
+            <button onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">Download App</button>
+        </div>
+        <div class="window">
+            For windows 64-bit
+        </div>
+    </section>
+    <section class="two">
+        <div class="item">
+            <h4>Englist</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>Deutsch</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>Italiano</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>Español</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>français</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>Português brasileiro</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>日本</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>한국어</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>中国</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+        <div class="item">
+            <h4>中國</h4>
+            <button class="btn" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 32-bit
+            </button>
+            <button class="btn2" onclick="window.location.href='https://www.ultraedit.com/downloads/ultraedit-download-thank-you/'">
+                Download 64-bit
+            </button>
+        </div>
+
+
+    </section>
+    </main>
+</body>
+
+</html>

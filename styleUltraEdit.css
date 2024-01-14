@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1100px;
+    width: 100%;
+}
+
+nav {
+    /* background-color: aquamarine; */
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+    position: fixed;
+}
+
+.all {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.titled {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 2px;
+    bottom: 1px;
+    left: 300px;
+}
+
+.titled-below {
+    font-family: 'Poppins', sans-serif;
+    font-size: 6px;
+    position: relative;
+    bottom: 4px;
+    left: 2px;
+    opacity: 0.8;
+}
+
+.logo {
+    position: relative;
+    bottom: 9px;
+    height: 15px;
+    left: 200px;
+    bottom: 7px;
+}
+
+.logo img {
+    border-radius: 3px;
+}
+
+.products {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    right: -550px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.Pricing {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    right: -600px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.Resources {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    right: -650px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.About {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    right: -700px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.About:hover{
+    color: aqua;
+}
+.Resources:hover{
+    color: aqua;
+}.products:hover{
+    color: aqua;
+}.Pricing:hover{
+    color: aqua;
+}
+main {
+    height: 900px;
+    background-color: rgb(255, 251, 255);
+}
+
+.photo {
+    
+    position: relative;
+    top: 100px;
+    right: -550px;
+    z-index: 2;
+    width: 400px;
+    
+}
+
+.photo img {
+    box-shadow: 6px 5px 1px grey;
+    border-radius: 30px;
+    position: relative;
+    left: 30px;
+}
+.info{
+    position:relative;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.9;
+}
+.info p{
+    position: relative;
+    top: -158px;
+    right: -280px;
+    height: 30px;
+    width: 207px;
+}
+.downld{
+    position: relative;
+    top: -36px;
+    right: -332px;
+    height: 30px;
+    width: 207px;
+}
+.downld button{
+    
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(154, 154, 255);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 15px;
+    font-size: 10px;
+    cursor: pointer;
+    column-rule-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.window{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -39px;
+    left:-209px;
+    font-size: 7px;
+    opacity: 0.7;
+}
+/* .alli{
+    display: flex;
+} */
+.two{
+   display: grid;
+   align-items: center;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 70px 20px;
+    position: absolute;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    position: relative;
+    top: 86px;
+    left:285px;
+    width: 240px;
+    height: 130px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+}
+.item h4{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    top: 30px;
+
+}
+.btn{
+    height: 26%;
+    position: relative;
+    top: 60px;
+    right: 61px;
+    padding: 13px 17px;
+    border-radius: 13px;
+    border: none;
+    background-color: rgb(104, 255, 255);
+    font-size: 9px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:  rgb(255, 45, 230);
+    border-radius: 23px;
+}
+.btn2:hover{
+    background-color:  rgb(255, 45, 230);
+    border-radius: 23px;
+}
+.downld button:hover{
+    background-color:  rgb(255, 45, 230);
+    border-radius: 23px;
+}
+.btn2{
+    height: 26%;
+    position: relative;
+    top: 26px;
+    left: 60px;
+    padding: 13px 17px;
+    border-radius: 13px;
+    border: none;
+    background-color: rgb(104, 255, 255);
+    font-size: 9px;
+    cursor: pointer;
+}
